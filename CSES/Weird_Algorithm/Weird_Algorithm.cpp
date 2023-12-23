@@ -14,7 +14,7 @@ using namespace std;
 
 //recursive approach
 //return statements not needed, could be made void, but I like tracking my recursive logic
-int WeirdAlgorithm(int n){
+int WeirdAlgorithm(long long n){
     if (n == 1){
         std::cout<< n << std::endl;
         return 1;
@@ -31,9 +31,8 @@ int WeirdAlgorithm(int n){
 
 //this can also be accomplished with a while loop
 
-void WeirdAlgorithmWhile(int n){
-    int num = n;
-    std::cout<< num << std::endl;
+void WeirdAlgorithmWhile(long long n){
+    long long num = n;
     while (num != 1){
         if (num%2 == 0){
             std::cout<< num << std::endl;
